@@ -1,11 +1,11 @@
 // src/pages/Home.js
 
 import React from 'react';
+import IntroductionandBranding from './HomeComponent/IntroductionandBranding';
 const Home = () =>{
   return (
     <div>
-      <h1>Home Page</h1>
-      {/* Add content for your home page */}
+     <IntroductionandBranding/>
     </div>
   );
 }
