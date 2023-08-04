@@ -5,8 +5,8 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header className="header">
-      <nav className="navbar">
+    <header className="header-Nav">
+      <nav className="navbar-Nav">
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/services">Services</a>
