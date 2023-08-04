@@ -2,8 +2,8 @@
 
 import React from "react";
 import * as mdb from "mdb-ui-kit"; // lib
-import 'mdb-ui-kit/css/mdb.min.css'
-import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import "mdb-ui-kit/css/mdb.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 const Footer = () => {
   return (
     /*<footer>
@@ -11,125 +11,217 @@ const Footer = () => {
     </footer>*/
 
     <>
-      <footer className="text-center text-lg-start bg-white text-muted">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-          <div className="me-5 d-none d-lg-block">
-            <span>Get connected with us on social networks:</span>
-          </div>
+      <footer class="bg-dark text-center text-white">
+        <div class="container p-4">
+          <section class="mb-4">
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
 
-          <div>
-            <a href="" className="me-4 link-secondary">
-              <i className="fab fa-facebook-f"></i>
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i class="fab fa-twitter"></i>
             </a>
-            <a href="" className="me-4 link-secondary">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="" className="me-4 link-secondary">
-              <i className="fab fa-google"></i>
-            </a>
-            <a href="" className="me-4 link-secondary">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="" className="me-4 link-secondary">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="" className="me-4 link-secondary">
-              <i className="fab fa-github"></i>
-            </a>
-          </div>
-        </section>
 
-        <section className="">
-          <div className="container text-center text-md-start mt-5">
-            <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">
-                  <i className="fas fa-gem me-3 text-secondary"></i>Company name
-                </h6>
-                <p>
-                  Here you can use rows and columns to organize your footer
-                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                  elit.
-                </p>
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i class="fab fa-google"></i>
+            </a>
+
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+
+            <a
+              class="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </section>
+
+          <section class="">
+            <form action="">
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input
+                      type="email"
+                      id="form5Example21"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form5Example21">
+                      Email address
+                    </label>
+                  </div>
+                </div>
+
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </section>
+
+          <section class="mb-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              distinctio earum repellat quaerat voluptatibus placeat nam,
+              commodi optio pariatur est quia magnam eum harum corrupti dicta,
+              aliquam sequi voluptate quas.
+            </p>
+          </section>
+
+          <section class="">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 4
+                    </a>
+                  </li>
+                </ul>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Angular
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    React
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Vue
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Laravel
-                  </a>
-                </p>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 4
+                    </a>
+                  </li>
+                </ul>
               </div>
 
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Pricing
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Settings
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Orders
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-reset">
-                    Help
-                  </a>
-                </p>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 4
+                    </a>
+                  </li>
+                </ul>
               </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <i className="fas fa-home me-3 text-secondary"></i> New York, NY
-                  10012, US
-                </p>
-                <p>
-                  <i className="fas fa-envelope me-3 text-secondary"></i>
-                  info@example.com
-                </p>
-                <p>
-                  <i className="fas fa-phone me-3 text-secondary"></i> + 01 234 567
-                  88
-                </p>
-                <p>
-                  <i className="fas fa-print me-3 text-secondary"></i> + 01 234 567
-                  89
-                </p>
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Links</h5>
+
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 1
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 2
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 3
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white">
+                      Link 4
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
 
         <div
-          className="text-center p-4"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0.025)" }}
+          class="text-center p-3"
+          style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}
         >
-          © 2021 Copyright:
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">
             MDBootstrap.com
           </a>
         </div>
