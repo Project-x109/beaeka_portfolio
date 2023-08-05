@@ -9,7 +9,7 @@ import logo from "../../assets/images/logo.png"
 function Header2() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
-      <a href='/'><img style={{height:"80px",marginLeft:"20px",marginTop:"-20px"}} src={logo}></img></a>
+      <a href='/'><img style={{height:"100px",marginLeft:"20px",marginTop:"-20px"}} src={logo}></img></a>
       <Container fluid>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -19,7 +19,7 @@ function Header2() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1">Home</Nav.Link>
+            <Nav.Link href="#action1"></Nav.Link>
             <Nav.Link href="#action2">Link</Nav.Link>
             <NavDropdown title="Link" id="navbarScrollingDropdown">
               <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
