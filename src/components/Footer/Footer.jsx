@@ -11,7 +11,7 @@ const Footer = () => {
     </footer>*/
 
     <>
-      <footer class="bg-dark text-center text-white">
+      <footer style={{marginTop:"100px"}} class="bg-dark text-center text-white">
         <div class="container p-4">
           <section class="mb-4">
             <a
