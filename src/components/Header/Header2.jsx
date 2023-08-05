@@ -4,10 +4,12 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from "../../assets/images/logo.png"
 
 function Header2() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
+      <a href='/'><img style={{height:"80px",marginLeft:"20px",marginTop:"-20px"}} src={logo}></img></a>
       <Container fluid>
         <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

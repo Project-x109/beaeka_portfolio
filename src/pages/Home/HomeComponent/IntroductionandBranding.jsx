@@ -9,7 +9,7 @@ const IntroductionandBranding = () => {
   return (
     <div>
       <div className="carousel-container">
-        <Carousel
+        {/* <Carousel
           animation="fade"
           duration={100}
           swipe={true}
@@ -23,7 +23,7 @@ const IntroductionandBranding = () => {
             <img src={image2} />
             <p className="legend">Legend 2</p>
           </div>
-        </Carousel>
+        </Carousel> */}
       </div>
 
       {/* Add content for your home page */}
