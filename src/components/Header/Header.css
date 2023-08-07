@@ -1,9 +1,11 @@
 /* Header.css */ 
 
 header {
-/*   background: linear-gradient(to right, #ABDFF1, #E1DDDB);  */
-  background-color: #ABDFF1;
+ /*background: linear-gradient(to right, #ABDFF1, #E1DDDB);  */
+  background-color: #4f0aaa;
+  color:aliceblue;
 }
+
 
 .primary-nav {
   max-width: 1200px;
@@ -44,7 +46,7 @@ header {
   left: 0;
   width: 0%;
   height: 2px;
-  background: #004381;
+  background: #0d82ef;
   color: #000;
   transition: width 0.3s ease;
 }
